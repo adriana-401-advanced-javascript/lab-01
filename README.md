@@ -1,38 +1,36 @@
-# LAB - 
+# LAB - 01
 
-## Project Name
-
-### Author: Student/Group Name
+### Author: Adriana Graybill
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis][![Build Status](https://travis-ci.com/adriana-401-advanced-javascript/lab-01.svg?branch=master)](https://travis-ci.com/adriana-401-advanced-javascript/lab-01)
+* [submission PR](https://github.com/adriana-401-advanced-javascript/lab-01/pull/1)
+* [Travis][![Build Status](https://travis-ci.com/adriana-401-advanced-javascript/lab-01.svg?branch=master)](https://travis-ci.com/adriana-401-advanced-javascript/lab-01)
 
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+### Technology and Libraries Used
+eslint
+faker
+jest
 
-### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `arithmetic.divide = function (a,b) {
-######    if( typeof a !== 'number' || typeof b !== 'number' ) { return null; }
-######    if( a === 0 || b === 0 ) { return undefined; }
-######  };`
+##### Good use of code - isNaN - Sneaky
+`arithmetic.multiply = function multiply() {
+  let productTotal = 1;
+  for (let i = 0; i < arguments.length; i++) {
+    productTotal *= arguments[i];
+  }
+  if ((typeof productTotal !== 'number') || (isNaN(productTotal))) { return undefined; }
+  else { return productTotal; }
+};`
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `node index,js`
   
 #### Tests
 * How do you run tests?
+  * `npm test`
 * What assertions were made?
+  * All the tests, greeting, and math
 * What assertions need to be / should be made?
+  * I think I am done, my tests could be a lot better, my code could be better too.
 
 #### UML
-Link to an image of the UML for your application and response to events
+![Picture](lab-01.png "VSC Screenshot")
