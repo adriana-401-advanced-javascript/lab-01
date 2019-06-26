@@ -6,9 +6,7 @@
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [travis][![Build Status](https://travis-ci.com/adriana-401-advanced-javascript/lab-01.svg?branch=master)](https://travis-ci.com/adriana-401-advanced-javascript/lab-01)
 
 #### Documentation
 * [api docs](http://xyz.com) (API servers)
@@ -19,16 +17,10 @@
 #### `modulename.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
-
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+###### `arithmetic.divide = function (a,b) {
+######    if( typeof a !== 'number' || typeof b !== 'number' ) { return null; }
+######    if( a === 0 || b === 0 ) { return undefined; }
+######  };`
 
 #### Running the app
 * `npm start`
