@@ -1,5 +1,7 @@
 # LAB - 01
 
+### NODE ECOSYSTEM
+
 ### Author: Adriana Graybill
 
 ### Links and Resources
