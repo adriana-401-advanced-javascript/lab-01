@@ -6,7 +6,7 @@
 
 ### Links and Resources
 * [submission PR](https://github.com/adriana-401-advanced-javascript/lab-01/pull/3)
-* [Travis][![Build Status](https://travis-ci.com/adriana-401-advanced-javascript/lab-01.svg?branch=master)](https://travis-ci.com/adriana-401-advanced-javascript/lab-01)
+* [![Build Status](https://travis-ci.com/adriana-401-advanced-javascript/lab-01.svg?branch=master)](https://travis-ci.com/adriana-401-advanced-javascript/lab-01)
 
 ### Technology and Libraries Used
 eslint
