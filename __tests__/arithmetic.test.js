@@ -10,7 +10,7 @@ describe('arithmetic addition', () => {
 
 describe('arithmetic addition', () => {
   it('hates words', () => {
-    expect(arithmetic.add('friend')).toBe(undefined);
+    expect(arithmetic.add('friend')).toBe(null);
   });
 });
 
@@ -22,7 +22,7 @@ describe('arithmetic subtraction', () => {
 
 describe('arithmetic subtraction', () => {
   it('hates words', () => {
-    expect(arithmetic.subtract('hello')).toBe(undefined);
+    expect(arithmetic.subtract('hello')).toBe(null);
   });
 });
 
@@ -34,7 +34,7 @@ describe('arithmetic multipliply', () => {
 
 describe('arithmetic multiply', () => {
   it('hates words', () => {
-    expect(arithmetic.multiply('friend')).toBe(undefined);
+    expect(arithmetic.multiply('friend')).toBe(null);
   });
 });
 
@@ -46,12 +46,12 @@ describe('arithmetic division', () => {
 
 describe('arithmetic division', () => {
   it('hates words', () => {
-    expect(arithmetic.divide('hello')).toBe(undefined);
+    expect(arithmetic.divide('hello')).toBe(null);
   });
 });
 
 describe('arithmetic division', () => {
   it('hates 0', () => {
-    expect(arithmetic.divide(4,0)).toBe(undefined);
+    expect(arithmetic.divide(4,0)).toBe(null);
   });
 });
