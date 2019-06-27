@@ -15,19 +15,12 @@ jest
 
 ##### Good use of code - isNaN - Sneaky
 `arithmetic.multiply = function multiply() {
-
   let productTotal = 1;
-
   for (let i = 0; i < arguments.length; i++) {
-
     productTotal *= arguments[i];
-
   }
-
   if ((typeof productTotal !== 'number') || (isNaN(productTotal))) { return undefined; }
-
   else { return productTotal; }
-
 };`
 
 #### Running the app
